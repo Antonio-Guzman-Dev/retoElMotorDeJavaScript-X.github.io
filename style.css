@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: white;
+}
+
+main {
+    min-height: 79vh;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: white;
+}
+h2 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 2rem;
+}
+.encabezado {
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(28, 156, 35);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    display: grid;
+    place-items: center;
+}
+
+.section img {
+    width: 100%;
+}
+
+button {
+    width: 15rem;
+    height: 4rem;
+    font-size: 1.2rem;
+    background-color: rgb(53, 109, 214);
+    color: white;
+    margin-top: 2rem;
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(51, 51, 51);
+    display: grid;
+    place-items: center;
+    font-size: 1.4rem;
+    color: white;
+}
